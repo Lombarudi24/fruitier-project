@@ -1,9 +1,66 @@
 .App {
   text-align: center;
-  background-color: beige;
+ background-color: cyan;
+}
+.Nav .logo{
+   font-size: 25px;
+   font-family: cursive;
 }
 
-.Nav {
-  background-color: cyan;
+.Nav{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  height: 80px;
 }
+
+Nav a {
+  margin: 0 1rem;
+} 
+
+Nav a:hover{
+  color: rgb(232, 61, 5);
+}
+
+Nav .nav-btn {
+  padding: 5px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: cyan ;
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  Nav .nav-btn{
+    visibility: visible;
+    opacity: 1;
+  }
+  Nav nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color:red ;
+    transform: translateY(-100vh);
+  }
+
+  Nav .responsive-navBar {
+    transform: none;
+  }
+
+  /* Nav .na */
+
+
+}
+
+
+
 
