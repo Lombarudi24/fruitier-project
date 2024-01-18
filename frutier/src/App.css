@@ -1,6 +1,6 @@
 .App {
   text-align: center;
- background-color: cyan;
+ 
 }
 .Nav .logo{
    font-size: 25px;
@@ -8,6 +8,7 @@
 }
 
 .Nav{
+  background-color: cyan;
   display: flex;
   align-items:center;
   justify-content: space-between;

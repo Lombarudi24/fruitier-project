@@ -22,9 +22,9 @@ export default function NavBar() {
           {" "}
           <FaBell />{" "}
         </button>{" "}
-        <button nav-close-btn onClick={activatedNavBar}>
+        {/* <button nav-close-btn onClick={activatedNavBar}>
           <FaTimes />
-        </button>
+        </button> */}
       </nav>
       <button className="nav-btn" onClick={activatedNavBar}>
         <FaBars />
